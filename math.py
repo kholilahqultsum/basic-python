@@ -20,4 +20,4 @@ y = 3
 # print(x % y)
 
 # Pangkat
-print(x ** y)
+# print(x ** y)

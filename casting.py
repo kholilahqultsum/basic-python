@@ -35,11 +35,14 @@
 # print(type(b))
 
 # string to int
-x = "4.5"
-print(x)
-print(type(x))
+# x = "4.5"
+# print(x)
+# print(type(x))
 
+# y = int(float(x))
+# print(y)
+# print(type(y))
+
+x = "2.9999"
 y = int(float(x))
-print(y)
 print(type(y))
-

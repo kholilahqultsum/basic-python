@@ -1,0 +1,8 @@
+name = input ("Enter Your Name: ")
+x = str(name)
+age = input ("Enter Your Age: ")
+y = int(age)
+height = input ("Enter Your Height: ")
+z = float(height)
+text = "Nama saya {}, umur saya {} tahun dan tinggi saya {} cm" .format(x, y, z)
+print(text)
