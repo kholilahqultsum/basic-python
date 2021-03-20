@@ -43,6 +43,6 @@
 # print(y)
 # print(type(y))
 
-x = "2.9999"
-y = int(float(x))
-print(type(y))
+# x = "2.9999"
+# y = int(float(x))
+# print(type(y))
