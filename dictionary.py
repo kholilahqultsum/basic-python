@@ -1,14 +1,14 @@
-pelanggan = {
-    "nama": "Lila" ,
-    "umur": "21"
-}
+# pelanggan = {
+#     "nama": "Lila" ,
+#     "umur": "21"
+# }
 
-pelanggan_2 = {
-    "nama": "Adam" ,
-    "umur": 25
-}
+# pelanggan_2 = {
+#     "nama": "Adam" ,
+#     "umur": "25"
+# }
 
-# print(pelanggan[])
+# print(pelanggan)
 # print(pelanggan_2)
 
 # pelanggan = ["Lila", "20"]
@@ -17,7 +17,7 @@ pelanggan_2 = {
 # print(pelanggan["nama"])
 # print(pelanggan["umur"])
 
-# pelanggan_2["umur"] = 17
+# # pelanggan_2["umur"] = 17
 
 # print(pelanggan_2["nama"])
 # print(pelanggan_2["umur"])
@@ -29,10 +29,25 @@ pelanggan_2 = {
 #     print(pelanggan_2[x])
 
 #list of dictionary
-daftar_pelanggan = []
-daftar_pelanggan.append(pelanggan)
-daftar_pelanggan.append(pelanggan_2)
+# daftar_pelanggan = []
+# daftar_pelanggan.append(pelanggan)
+# daftar_pelanggan.append(pelanggan_2)
 
-for pelanggan in daftar_pelanggan:
-    print("Nama: {} " . format(pelanggan["nama"]))
-    print("Umur: {} " . format(pelanggan["umur"]))
+# for pelanggan in daftar_pelanggan:
+#     print("Nama: {} " . format(pelanggan["nama"]))
+#     print("Umur: {} " . format(pelanggan["umur"]))
+
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+print(thisdict)
+
+#Accessing items:
+x = thisdict["model"]
+print(x)
+
+# #Change Value:
+# y = thisdict ["year"] = 2018
+# print(y)

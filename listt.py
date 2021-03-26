@@ -1,4 +1,4 @@
-mylist = [1, 2, 3, 100]
+# mylist = [1, 2, 3, 100]
 
 # mylist.append(1)
 # mylist.append(2)
@@ -16,5 +16,12 @@ mylist = [1, 2, 3, 100]
 # print(mylist[0])
 # print(mylist[1])
 # print(mylist[2])
-for x in mylist:
-    print(x)
+# for x in mylist:
+#     print(x)
+
+x = []
+# Nama = input("Masukkan Nama: ")
+x.append("joko")
+
+for nama in x:
+    print(nama)
