@@ -34,7 +34,7 @@ while True:
             print("Nama: {}" . format(daftar_nama[kontak]))
             print("No. Telepon: {}" . format(daftar_nomor[kontak]))
 
-    if count == tambahkontak:
+    elif count == tambahkontak:
         Nama = (input("Masukkan Nama: "))
         NoTelepon = int(input("Masukkan Nomor: "))
         
@@ -43,7 +43,7 @@ while True:
 
         print("Kontak berhasil ditambahkan!")
 
-    if count == keluar:
+    elif count == keluar:
         print("Program selesai, sampai jumpa!")
         break
 

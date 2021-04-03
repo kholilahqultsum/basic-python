@@ -11,4 +11,11 @@ for i in range(count):
     umur_pelanggan.append(umur)
     
 for i in range(len(nama_pelanggan)):
-    print("Pelanggan: {} dengan usia: {}" . format(nama_pelanggan[i] , umur_pelanggan[i]))
+    print("Pelanggan: {} dengan usia: {}" . format(nama_pelanggan [i], umur_pelanggan [i]))
+
+# student_name = str(input("nama siswa:"  ))
+# marks = {'James': 90, 'Jules': 55, 'Arthur': 77}
+# for student in marks:
+#     if student_name == student:
+#         print(marks[student])
+#         break
